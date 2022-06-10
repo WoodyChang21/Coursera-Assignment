@@ -189,3 +189,9 @@ p {
         width: 100%;
     }
 }
+
+#header-nav {
+    background-color: gray;
+    border-radius:0;
+    border:0;
+}
