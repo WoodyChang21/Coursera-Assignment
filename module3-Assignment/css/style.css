@@ -19,30 +19,6 @@
     margin:10px 10px;
 }
 
-.item-title{
-    margin: 0px;
-    font-size:125%;
-    padding: 3px 50px;
-    position: absolute;
-    right:0px;
-    top:0px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-#item-title1 {
-    background-color: rgb(191, 148, 138);
-    text-align: center;
-}
-#item-title2 {
-    background-color: rgb(171, 62, 37);
-    text-align: center;
-}
-#item-title3 {
-    background-color: rgb(243, 201, 134);
-    text-align: center;
-}
-
 p {
     text-align: justify;
     margin: 5px 0px 0px 0px;
