@@ -19,6 +19,8 @@
     margin:10px 10px;
 }
 
+
+
 p {
     text-align: justify;
     margin: 5px 0px 0px 0px;
@@ -27,7 +29,8 @@ p {
 .title {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 20px;
-    font-size: 175%;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 /********** Large devices only **********/
@@ -177,7 +180,6 @@ p {
 }
 
 .navbar-brand h1{
-    margin:0px -30px;
     color: black;
     font-size: 1.5em;
     font-weight: bold;
@@ -203,4 +205,8 @@ p {
 .nav-link {
     color: black;
     font-size: 1.2em;
+}
+
+.navbar-list {
+    float:right;
 }
