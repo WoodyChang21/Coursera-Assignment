@@ -7,17 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
 
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-default">
+    <!--Start of the navbard header-->
+        <nav id="header-nav" class="navbar navbar-dark navbar-expand-sm">
             <div class="container">
-                
-            </div>
+                <div class="navbar-header"> <!--Start of Navbar header-->
+                    <a href="index.html" class="navbar-brand">
+                        <h1>
+                            Food, LLC
+                        </h1>
+                    </a>
+                    <button class="navbar-toggler collapsed dropdown-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                </div> <!--End of Navbar Header-->
+                <div id="navbarSupportedContent" class="collapse navbar-collapse text-center">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block d-sm-none">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#item-title1">Chicken</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#item-title2">Beef</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#item-title3">Sushi</a>
+                            </li>
+                         </ul>
+                </div>
+            </div> <!--End of Container-->
         </nav>
     </header>
+    <!--End of the header-->
     <h1 class="title">
         Our Menu
     </h1>
@@ -28,6 +53,14 @@
                     Chicken
                 </h2>
                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur
+                    obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
+                    obcaecati explicabo adipisci non.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur
+                    obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
+                    obcaecati explicabo adipisci non.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur
                     obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
@@ -45,6 +78,10 @@
                     obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
                     obcaecati explicabo adipisci non.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur
+                    obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
+                    obcaecati explicabo adipisci non.
                 </p>
             </div>
         </div>
@@ -58,11 +95,23 @@
                     obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
                     obcaecati explicabo adipisci non.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur
+                    obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
+                    obcaecati explicabo adipisci non.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur
+                    obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam,
+                    obcaecati explicabo adipisci non.
                 </p>
             </div>
         </div>
+        <div class="top d-sm-none">
+            <a href="#header-nav">TOP</a>
+        </div>
     </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
+      <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
