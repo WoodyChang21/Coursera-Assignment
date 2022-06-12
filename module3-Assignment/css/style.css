@@ -191,6 +191,11 @@ p {
     right: 0px;
     top: 0px;
 }
+
+.navbar-header button:hover {
+    background-color: rgb(186, 176, 176);
+}
+
 .navbar-header button.navbar-toggler {
     border: 2px solid black;
 }
